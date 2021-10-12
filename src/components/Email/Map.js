@@ -17,7 +17,7 @@ const Map = () => {
     <ReactMapGl
       style={{ minHeight: '30vh' }}
       {...viewport}
-      mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
+      mapboxApiAccessToken='pk.eyJ1IjoicmV6d2FucmFmaWQiLCJhIjoiY2t1b2dic3V0NGF4bTMxazZteWJuOHpvNCJ9.x-YSX-_FLuCR1G_lFcm76g'
       onViewportChange={(vp) => setViewport(vp)}
     >
       <Marker latitude={viewport.latitude} longitude={viewport.longitude}>
