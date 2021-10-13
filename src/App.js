@@ -30,7 +30,6 @@ const App = ({ darkmode = false }) => {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-
       <Navbar nav={nav} setNav={setNav} />
       {/* <HomePage setNav={setNav} /> */}
       <HomePage2 setNav={setNav} />

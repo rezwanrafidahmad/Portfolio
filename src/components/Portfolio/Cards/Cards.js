@@ -1,6 +1,6 @@
 import { Box } from '@mui/system'
 import { Container, Grid } from '@mui/material'
-import { data } from './data'
+import data from 'Documentation/Portfilo/data'
 import SingleCard from './SingleCard'
 
 const Cards = () => {

@@ -8,6 +8,7 @@ import Box from '@mui/material/Box'
 import Cards from './Cards/Cards'
 import { useMediaQuery } from '@mui/material'
 import CardsFilter from './CardsFilter/Cards'
+import categories from 'Documentation/Portfilo/categories'
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props
@@ -73,27 +74,19 @@ export default function Portfolio({ setNav }) {
           variant={isSmall ? 'scrollable' : 'fullWidth'}
         >
           <Tab component='div' label='All' {...a11yProps(0)} />
-          <Tab component='div' label='Web' {...a11yProps(1)} />
-          <Tab component='div' label='Html' {...a11yProps(2)} />
-          <Tab component='div' label='Css' {...a11yProps(3)} />
-          <Tab component='div' label='Js' {...a11yProps(4)} />
+          {categories.map((item, i) => (
+            <Tab component='div' label={item} {...a11yProps(i + 1)} />
+          ))}
         </Tabs>
       </Box>
       <TabPanel component='div' value={value} index={0}>
         <Cards />
       </TabPanel>
-      <TabPanel component='div' value={value} index={1}>
-        <CardsFilter category='web' />
-      </TabPanel>
-      <TabPanel component='div' value={value} index={2}>
-        <CardsFilter category='html' />
-      </TabPanel>
-      <TabPanel component='div' value={value} index={3}>
-        <CardsFilter category='css' />
-      </TabPanel>
-      <TabPanel component='div' value={value} index={4}>
-        <CardsFilter category='js' />
-      </TabPanel>
+      {categories.map((item, i) => (
+        <TabPanel component='div' value={value} index={i + 1}>
+          <CardsFilter category={item} />
+        </TabPanel>
+      ))}
     </Box>
   )
 }
