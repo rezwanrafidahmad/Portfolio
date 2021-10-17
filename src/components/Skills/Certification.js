@@ -1,8 +1,5 @@
 import { Box, Typography, useMediaQuery, Grid } from '@mui/material'
-
-import pcap from 'img/pcap.png'
-import csm from 'img/csm.png'
-import tensor from 'img/tensor.png'
+import data from 'Documentation/Certifications/data'
 
 const Certifications = () => {
   const isSmall = useMediaQuery((theme) => theme.breakpoints.down('sm'))
@@ -33,102 +30,40 @@ const Certifications = () => {
         spacing={2}
         sx={{ mt: 3 }}
       >
-        <Grid item xs={6}>
-          <Box
-            display='flex'
-            flexDirection='column'
-            justifyContent='flex-start'
-            alignItems='center'
-          >
-            <img src={pcap} alt='pcap' height='120' />
-            <Typography
-              align='center'
-              variant='subtitle1'
-              sx={{ fontWeight: 'bold' }}
+        {data.map((item) => (
+          <Grid item xs={6}>
+            <Box
+              display='flex'
+              flexDirection='column'
+              justifyContent='flex-start'
+              alignItems='center'
             >
-              PCAP - Certified Associate in Python Programming
-            </Typography>
+              <img src={item.img} alt='pcap' height='120' />
+              <Typography
+                align='center'
+                variant='subtitle1'
+                sx={{ fontWeight: 'bold' }}
+              >
+                {item.title}
+              </Typography>
 
-            <Typography
-              display='block'
-              component='a'
-              href='https://mui.com'
-              target='_blank'
-              rel='noreferrer'
-              sx={{ color: 'primary.main', textDecoration: 'none' }}
-            >
-              https://mui.com
-            </Typography>
+              <Typography
+                display='block'
+                component='a'
+                href={item.link}
+                target='_blank'
+                rel='noreferrer'
+                sx={{ color: 'primary.main', textDecoration: 'none' }}
+              >
+                {item.link}
+              </Typography>
 
-            <Typography align='center' variant='subtitle1'>
-              Date: Sep 2021
-            </Typography>
-          </Box>
-        </Grid>
-        <Grid item xs={6}>
-          <Box
-            display='flex'
-            flexDirection='column'
-            justifyContent='center'
-            alignItems='center'
-          >
-            <img src={csm} alt='csm' height='120' />
-            <Typography
-              align='center'
-              variant='subtitle1'
-              sx={{ fontWeight: 'bold' }}
-            >
-              CSM - Certified Scrum Master
-            </Typography>
-
-            <Typography
-              display='block'
-              component='a'
-              href='https://mui.com'
-              target='_blank'
-              rel='noreferrer'
-              sx={{ color: 'primary.main', textDecoration: 'none' }}
-            >
-              https://mui.com
-            </Typography>
-
-            <Typography align='center' variant='subtitle1'>
-              Date: Sep 2021
-            </Typography>
-          </Box>
-        </Grid>
-        <Grid item xs={6}>
-          <Box
-            display='flex'
-            flexDirection='column'
-            justifyContent='center'
-            alignItems='center'
-          >
-            <img src={tensor} alt='tensor' height='120' />
-            <Typography
-              align='center'
-              variant='subtitle1'
-              sx={{ fontWeight: 'bold' }}
-            >
-              Tensorflow Developer
-            </Typography>
-
-            <Typography
-              display='block'
-              component='a'
-              href='https://mui.com'
-              target='_blank'
-              rel='noreferrer'
-              sx={{ color: 'primary.main', textDecoration: 'none' }}
-            >
-              https://mui.com
-            </Typography>
-
-            <Typography align='center' variant='subtitle1'>
-              Date: Sep 2021
-            </Typography>
-          </Box>
-        </Grid>
+              <Typography align='center' variant='subtitle1'>
+                Date: {item.date}
+              </Typography>
+            </Box>
+          </Grid>
+        ))}
       </Grid>
     </Box>
   )

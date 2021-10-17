@@ -1,4 +1,5 @@
 import { Box, Typography, Button, useMediaQuery, Grid } from '@mui/material'
+import { skills, competencies } from 'Documentation/Skills/data'
 
 const Text = () => {
   const isSmall = useMediaQuery((theme) => theme.breakpoints.down('sm'))
@@ -22,27 +23,11 @@ const Text = () => {
         Technical Skills
       </Typography>
       <Grid container spacing={2} sx={{ mt: 3 }}>
-        <Grid item>
-          <Button variant='outlined'>Python</Button>
-        </Grid>
-        <Grid item>
-          <Button variant='outlined'>R</Button>
-        </Grid>
-        <Grid item>
-          <Button variant='outlined'>Tensorflow</Button>
-        </Grid>
-        <Grid item>
-          <Button variant='outlined'>Apache Spark</Button>
-        </Grid>
-        <Grid item>
-          <Button variant='outlined'>Java</Button>
-        </Grid>
-        <Grid item>
-          <Button variant='outlined'>ReactJS</Button>
-        </Grid>
-        <Grid item>
-          <Button variant='outlined'>HTML/CSS</Button>
-        </Grid>
+        {skills.map((skill) => (
+          <Grid item key={skill}>
+            <Button variant='outlined'>{skill}</Button>
+          </Grid>
+        ))}
       </Grid>
       <br />
       <Typography
@@ -52,18 +37,11 @@ const Text = () => {
         Core Competencies
       </Typography>
       <Grid container spacing={2} sx={{ mt: 3 }}>
-        <Grid item>
-          <Button variant='outlined'>Image Processing</Button>
-        </Grid>
-        <Grid item>
-          <Button variant='outlined'>Computer Vision</Button>
-        </Grid>
-        <Grid item>
-          <Button variant='outlined'>Statistical Analysis</Button>
-        </Grid>
-        <Grid item>
-          <Button variant='outlined'>Forecasting</Button>
-        </Grid>
+        {competencies.map((competency) => (
+          <Grid item key={competency}>
+            <Button variant='outlined'>{competency}</Button>
+          </Grid>
+        ))}
       </Grid>
     </Box>
   )
