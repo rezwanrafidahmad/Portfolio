@@ -66,20 +66,20 @@ const Text = () => {
           onMouseEnter={() => setInfo('Email')}
           onMouseLeave={() => setInfo('')}
           color={info === 'Email' ? 'primary' : 'inherit'}
-          href='mailto:rafid179@gmail.com'
+          href='mailto:rezwanrafid.ahmad@gmail.com'
           startIcon={<EmailIcon />}
         >
-          rafid179@gmail.com
+          rezwanrafid.ahmad@gmail.com
         </Button>{' '}
         <br />
         <Button
           onMouseEnter={() => setInfo('Number')}
           onMouseLeave={() => setInfo('')}
           color={info === 'Number' ? 'primary' : 'inherit'}
-          href='tel:+8801558297216'
+          href='tel:+8801749378016'
           startIcon={<CallIcon />}
         >
-          +88 01558297216
+          +8801749378016
         </Button>
         <br />
         <Button
@@ -104,7 +104,7 @@ const Text = () => {
           </Button>
           <Button
             size='small'
-            href='https://www.google.com/'
+            href='https://github.com/rezwanrafidahmad'
             target='_blank'
             onMouseEnter={() => setLink('Github')}
             onMouseLeave={() => setLink('')}
