@@ -54,14 +54,14 @@ const CAMP = ({ items }) => {
               lineHeight: '1.5rem',
             }}
           >
-            {items.date}
+            {items.title}
           </Typography>
           <Typography
             component='span'
             variant='subtitle2'
             sx={{ color: 'primary.main' }}
           >
-            Jan 2021 - Apr 2021
+            {items.date}
           </Typography>
           <Typography variant='subtitle1' sx={{ color: 'GrayText', my: 2 }}>
             <Typography
@@ -69,7 +69,7 @@ const CAMP = ({ items }) => {
               variant='subtitle1'
               sx={{ fontWeight: 'bold' }}
             >
-              Institute:{' '}
+              {' '}
             </Typography>
             <Typography
               component='span'
