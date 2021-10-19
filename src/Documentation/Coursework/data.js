@@ -15,7 +15,7 @@ const data = [
   {
     id: 2,
     img: pcap,
-    title: 'Certified Associate in Project Management (CAPM) Training',
+    title: 'Python Python Python',
     date: 'Jan 2021 - Apr 2021',
     institute: 'Day Spring Ltd.',
     description: 'A PMI® Approved Premium Training Partner (ATP)',
