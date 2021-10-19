@@ -1,10 +1,10 @@
-import pcap from 'img/pcap.png'
-import ibm_badge_1 from 'img/ibm_bage_1.png'
+import deep_learning_1 from 'img/deep_learning_1.jpg'
+import ibm_badge_1 from 'img/ibm_badge_1.png'
 
 const data = [
   {
     id: 1,
-    img: pcap,
+    img: deep_learning_1,
     title: 'Certified Associate in Project Management (CAPM) Training',
     date: 'Jan 2021 - Apr 2021',
     institute: 'Day Spring Ltd.',
