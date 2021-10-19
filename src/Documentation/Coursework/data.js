@@ -15,8 +15,8 @@ const data = [
   {
     id: 2,
     img: pcap,
-    title: 'This is for demo purposess',
-    date: 'Jan 2021 - Apr 2021',
+    title: 'Hello!',
+    date: 'Demo 101 - Demo 102',
     institute: 'Day Spring Ltd.',
     description: 'A PMI® Approved Premium Training Partner (ATP)',
 
