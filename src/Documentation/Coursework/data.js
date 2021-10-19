@@ -15,7 +15,7 @@ const data = [
   },
   {
     id: 2,
-    img: pcap,
+    img: ibm_badge_1,
     title: 'IBM Professional Certificate in Data Science',
     date: 'March 2020',
     institute: 'IBM (Coursera)',
