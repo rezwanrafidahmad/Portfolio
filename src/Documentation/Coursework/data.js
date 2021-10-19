@@ -1,5 +1,5 @@
 import pcap from 'img/pcap.png'
-import ibm_logo from 'img/ibm_logo.png'
+// import ibm_logo from 'img/ibm_logo.png'
 
 const data = [
   {
@@ -15,7 +15,7 @@ const data = [
   },
   {
     id: 2,
-    img: ibm_logo,
+    img: pcap,
     title: 'IBM Professional Certificate in Data Science',
     date: 'March 2020',
     institute: 'IBM (Coursera)',
