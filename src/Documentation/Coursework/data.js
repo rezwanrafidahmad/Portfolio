@@ -1,5 +1,5 @@
 import pcap from 'img/pcap.png'
-// import ibm_logo from 'img/ibm_logo.png'
+import ibm_badge_1 from 'img/ibm_badge_1.png'
 
 const data = [
   {
