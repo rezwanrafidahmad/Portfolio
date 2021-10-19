@@ -61,7 +61,7 @@ const CAMP = ({ items }) => {
             variant='subtitle2'
             sx={{ color: 'primary.main' }}
           >
-            {item.date}
+            {items.date}
           </Typography>
           <Typography variant='subtitle1' sx={{ color: 'GrayText', my: 2 }}>
             <Typography
