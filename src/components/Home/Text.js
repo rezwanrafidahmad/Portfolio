@@ -94,7 +94,7 @@ const Text = () => {
         <Stack direction='row' sx={{ mt: 3 }} spacing={2}>
           <Button
             size='small'
-            href='https://www.google.com/'
+            href='https://www.linkedin.com/in/shaikh-rezwan-rafid-ahmad-csm%C2%AE-56a9a9145/'
             target='_blank'
             onMouseEnter={() => setLink('LinkedIn')}
             onMouseLeave={() => setLink('')}
@@ -114,7 +114,7 @@ const Text = () => {
           </Button>
           <Button
             size='small'
-            href='https://www.google.com/'
+            href='https://www.kaggle.com/rezwanrafid'
             target='_blank'
             onMouseEnter={() => setLink('Kaggle')}
             onMouseLeave={() => setLink('')}
@@ -124,7 +124,7 @@ const Text = () => {
           </Button>
           <Button
             size='small'
-            href='https://www.google.com/'
+            href='https://www.youtube.com/channel/UCmks7bY5knEh949pitbOTqw'
             target='_blank'
             onMouseEnter={() => setLink('Youtube')}
             onMouseLeave={() => setLink('')}
