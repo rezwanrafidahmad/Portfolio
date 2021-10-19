@@ -54,7 +54,7 @@ const CAMP = ({ items }) => {
               lineHeight: '1.5rem',
             }}
           >
-            {items.title}
+            {items.date}
           </Typography>
           <Typography
             component='span'
