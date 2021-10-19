@@ -1,27 +1,15 @@
-import tensor from 'img/tensor.png'
+import ieee_logo from 'img/ieee_logo.png'
 
 const data = [
   {
     id: 1,
-    img: tensor,
-    title: 'Certified Associate in Project Management (CAPM) Training',
-    date: 'Jan 2021 - Apr 2021',
-    institute: 'Day Spring Ltd.',
-    description: 'A PMI® Approved Premium Training Partner (ATP)',
-
-    skills: ['Project Management', 'Agile Practices', 'Risk Assessment'],
-    link: 'https://drive.google.com/file/d/1F2ikWaC-qbiLapdgPRmb3vH1i78HWd53/view?usp=sharing',
-  },
-  {
-    id:2,
-    img: tensor,
-    title: 'Certified Associate in Project Management (CAPM) Training',
-    date: 'Jan 2021 - Apr 2021',
-    institute: 'Day Spring Ltd.',
-    description: 'A PMI® Approved Premium Training Partner (ATP)',
-
-    skills: ['Project Management', 'Agile Practices', 'Risk Assessment'],
-    link: 'https://drive.google.com/file/d/1F2ikWaC-qbiLapdgPRmb3vH1i78HWd53/view?usp=sharing',
+    img: ieee_logo,
+    title: 'Prediction of Epileptic Seizures using Support Vector Machine and Regularization',
+    date: 'Nov 2020',
+    institute: '2020 IEEE Region 10 Symposium (TENSYMP)',
+    description: 'Software Engineering and HCI Research Group, Department of Computer Science and Engineering, BRAC University',
+    skills: ['Digital Signal Processing (DSP)', 'EEG', 'Epilepsy', 'Support Vector Machine (SVM)'],
+    link: 'https://ieeexplore.ieee.org/abstract/document/9230899',
   },
 ]
 
