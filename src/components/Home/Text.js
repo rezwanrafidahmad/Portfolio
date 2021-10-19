@@ -66,20 +66,20 @@ const Text = () => {
           onMouseEnter={() => setInfo('Email')}
           onMouseLeave={() => setInfo('')}
           color={info === 'Email' ? 'primary' : 'inherit'}
-          href='mailto:rezwanrafid.ahmad@gmail.com'
+          href='mailto:rafid179@gmail.com'
           startIcon={<EmailIcon />}
         >
-          rezwanrafid.ahmad@gmail.com
+          rafid179@gmail.com
         </Button>{' '}
         <br />
         <Button
           onMouseEnter={() => setInfo('Number')}
           onMouseLeave={() => setInfo('')}
           color={info === 'Number' ? 'primary' : 'inherit'}
-          href='tel:+8801749378016'
+          href='tel:+8801558297216'
           startIcon={<CallIcon />}
         >
-          +8801749378016
+          +88 01558297216
         </Button>
         <br />
         <Button
@@ -94,7 +94,7 @@ const Text = () => {
         <Stack direction='row' sx={{ mt: 3 }} spacing={2}>
           <Button
             size='small'
-            href='https://www.linkedin.com/in/shaikh-rezwan-rafid-ahmad-csm%C2%AE-56a9a9145/'
+            href='https://www.google.com/'
             target='_blank'
             onMouseEnter={() => setLink('LinkedIn')}
             onMouseLeave={() => setLink('')}
@@ -104,7 +104,7 @@ const Text = () => {
           </Button>
           <Button
             size='small'
-            href='https://github.com/rezwanrafidahmad'
+            href='https://www.google.com/'
             target='_blank'
             onMouseEnter={() => setLink('Github')}
             onMouseLeave={() => setLink('')}
@@ -114,7 +114,7 @@ const Text = () => {
           </Button>
           <Button
             size='small'
-            href='https://www.kaggle.com/rezwanrafid'
+            href='https://www.google.com/'
             target='_blank'
             onMouseEnter={() => setLink('Kaggle')}
             onMouseLeave={() => setLink('')}
@@ -124,7 +124,7 @@ const Text = () => {
           </Button>
           <Button
             size='small'
-            href='https://www.youtube.com/channel/UCmks7bY5knEh949pitbOTqw'
+            href='https://www.google.com/'
             target='_blank'
             onMouseEnter={() => setLink('Youtube')}
             onMouseLeave={() => setLink('')}
