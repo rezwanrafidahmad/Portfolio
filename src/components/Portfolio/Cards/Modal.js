@@ -12,7 +12,7 @@ export default function Modal({ item, open, setOpen }) {
 
   if (!item) return ''
 
-  const { name, img1, img2, imgSub1, imgSub2, desc, skills } = item
+  const { name, img1, img2, imgSub1, imgSub2, desc, skills, githublink } = item
 
   return (
     <div>
