@@ -54,8 +54,8 @@ const Certifications = () => {
                 target='_blank'
                 rel='noreferrer'
                 sx={{ color: 'primary.main', textDecoration: 'none' }}
-              >
-                {item.link}
+              > 
+                View
               </Typography>
 
               <Typography align='center' variant='subtitle1'>
