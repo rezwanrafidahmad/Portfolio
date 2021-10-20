@@ -49,9 +49,9 @@ export default function Modal({ item, open, setOpen }) {
                     fontSize: 15,
                     fontWeight: 'bold',
                   }}
-                  href='https://mui.com/'
+                  href={githublink}
                 >
-                  Live Demo
+                  Github
                 </Button>
               </DialogContentText>
             </Grid>
