@@ -1,3 +1,3 @@
-const categories = ['web', 'html', 'css', 'js']
+const categories = ['Web Development', 'Computer Vision', 'Natural Language Processing (NLP)', 'Time Series']
 
 export default categories

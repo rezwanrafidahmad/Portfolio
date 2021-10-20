@@ -48,7 +48,7 @@ const Certifications = () => {
               </Typography>
 
               <Typography align='center' variant='subtitle1'>
-                Date: {item.date}
+                {item.date}
               </Typography>
 
               <Typography

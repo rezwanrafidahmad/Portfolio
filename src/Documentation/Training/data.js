@@ -1,5 +1,6 @@
 import csm from 'img/csm.png'
 import capm_logo from 'img/capm_logo.png'
+import java_training_logo from 'img/java_training_logo.png'
 
 const data = [
   {
@@ -15,7 +16,7 @@ const data = [
   {
     id: 2,
     img: capm_logo,
-    title: 'Certified Associate in Project Management (CAPM) Training',
+    title: 'Certified Associate in Project Management (CAPM)',
     date: 'March 2021',
     institute: 'Day Spring Ltd. - A PMI® Approved Premium Training Partner (ATP)',
     description: '3 month long training to prepare for the Certified Associate in Project Management (CAPM) exam based on PMBOK 6th ed. Earned 35 Professional Development Units (PDU)',
@@ -24,11 +25,11 @@ const data = [
   },
   {
     id: 3,
-    img: csm,
+    img: java_training_logo,
     title: 'Top-up IT (Java)',
     date: 'March 2018',
     institute: 'LICT, Bangladesh Computer Council',
-    description: '260-hour Instructor led live training on Fundamentals ~ Advanced Java for Enterprise Application Development.',
+    description: '260-hour Instructor led live training on Fundamentals ~ Advanced Java for Enterprise Application Development using Spring Core, MVC and Boot.',
     skills: ['Java SE', 'Java EE', 'Spring MVC', 'Spring Boot', 'Hibernate', 'MySQL', 'HTML/CSS'],
     link: 'https://drive.google.com/file/d/1NV8UNWuU07wZ8DccihdcLD8Txl5YX4ez/view?usp=sharing',
   },
