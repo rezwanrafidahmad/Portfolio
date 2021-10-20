@@ -85,14 +85,14 @@ export default function Navbar(props) {
                 >
                   Work Experience | Education
                 </Button>
-                <Button
+                {/* <Button
                   href='#achievements'
                   sx={nav === 'Achievements' ? boxActive : boxInActive}
                   color={nav === 'Achievements' ? 'primary' : 'inherit'}
                   onClick={() => setNav('Achievements')}
                 >
                   Achievements
-                </Button>
+                </Button> */}
                 <Button
                   href='#training'
                   sx={nav === 'Training' ? boxActive : boxInActive}

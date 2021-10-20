@@ -11,7 +11,7 @@ const Achievements = () => {
         variant='h4'
         sx={{ fontWeight: 'bold', color: 'GrayText', mt: 4 }}
       >
-        Achievements
+        {/* Achievements */}
       </Typography>
       <Grid
         direction='row'
