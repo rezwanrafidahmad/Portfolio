@@ -3,8 +3,8 @@ const data = [
     id: 1,
     degree: 'Bachelor of Science on Computer Science',
     university: 'BRAC University',
-    link: 'http://www.google.com',
-    date: 'May 2016 - Oct 2020',
+    link: 'https://www.bracu.ac.bd/',
+    date: 'Oct 2020',
     thesis:
       'Prediction of Epileptic Seizures using Support Vector Machine and Regularization',
     publisher: 'IEEE',
@@ -12,17 +12,17 @@ const data = [
   },
   {
     id: 2,
-    degree: 'International A Levels',
+    degree: 'Edexcel International A Levels',
     university: 'Academia',
-    link: 'http://www.google.com',
-    date: 'May 2016 - Oct 2020',
+    link: 'https://academiaschool.edu.bd/',
+    date: 'Jan 2016',
   },
   {
     id: 3,
-    degree: 'International A Levels',
+    degree: 'Edexcel International GCSE',
     university: 'Academia',
-    link: 'http://www.google.com',
-    date: 'May 2016 - Oct 2020',
+    link: 'https://academiaschool.edu.bd/',
+    date: 'Jan 2014',
   },
 ]
 
