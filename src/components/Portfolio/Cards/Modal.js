@@ -40,6 +40,7 @@ export default function Modal({ item, open, setOpen }) {
                 <Button
                   variant='contained'
                   disableElevation
+                  target='_blank'
                   sx={{
                     textTransform: 'none',
                     borderRadius: 30,
