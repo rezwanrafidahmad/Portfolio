@@ -18,7 +18,7 @@ const Footer = () => {
         sx={{ flexWrap: 'wrap', mb: 2 }}
       >
         <Typography align='center' color='GrayText' variant='subtitle2'>
-          All right reserved Sheikh Rezwan Rafid Ahmad @2021
+          All right reserved Shaikh Rezwan Rafid Ahmad @2021
         </Typography>
 
         <Stack
@@ -32,7 +32,7 @@ const Footer = () => {
         >
           <Button
             size='small'
-            href='https://www.google.com/'
+            href='https://www.linkedin.com/in/shaikh-rezwan-rafid-ahmad-csm%C2%AE-56a9a9145/'
             target='_blank'
             onMouseEnter={() => setLink('LinkedIn')}
             onMouseLeave={() => setLink('')}
@@ -42,7 +42,7 @@ const Footer = () => {
           </Button>
           <Button
             size='small'
-            href='https://www.google.com/'
+            href='https://github.com/rezwanrafidahmad'
             target='_blank'
             onMouseEnter={() => setLink('Github')}
             onMouseLeave={() => setLink('')}
@@ -52,7 +52,7 @@ const Footer = () => {
           </Button>
           <Button
             size='small'
-            href='https://www.google.com/'
+            href='https://www.kaggle.com/rezwanrafid'
             target='_blank'
             onMouseEnter={() => setLink('Kaggle')}
             onMouseLeave={() => setLink('')}
@@ -62,7 +62,7 @@ const Footer = () => {
           </Button>
           <Button
             size='small'
-            href='https://www.google.com/'
+            href='https://www.youtube.com/channel/UCmks7bY5knEh949pitbOTqw'
             target='_blank'
             onMouseEnter={() => setLink('Youtube')}
             onMouseLeave={() => setLink('')}

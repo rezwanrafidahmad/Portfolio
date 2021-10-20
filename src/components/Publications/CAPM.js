@@ -69,7 +69,7 @@ const CAMP = ({ items }) => {
               variant='subtitle1'
               sx={{ fontWeight: 'bold' }}
             >
-              Institute:{' '}
+              Conference:{' '}
             </Typography>
             <Typography
               component='span'
