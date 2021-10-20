@@ -14,7 +14,7 @@ const data = [
   'About',
   'Skills',
   'Experience',
-  'Achievements',
+  // 'Achievements',
   'Training',
   'Coursework',
   'Publications',
