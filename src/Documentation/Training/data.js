@@ -27,7 +27,7 @@ const data = [
     img: csm,
     title: 'Top-up IT (Java)',
     date: 'March 2018',
-    institute: 'Leveraging ICT for Growth, Employment and Governance (LICT) - Bangladesh Computer Council',
+    institute: 'LICT, Bangladesh Computer Council',
     description: '260-hour Instructor led live training on Fundamentals ~ Advanced Java for Enterprise Application Development.',
     skills: ['Java SE', 'Java EE', 'Spring MVC', 'Spring Boot', 'Hibernate', 'MySQL', 'HTML/CSS'],
     link: 'https://drive.google.com/file/d/1NV8UNWuU07wZ8DccihdcLD8Txl5YX4ez/view?usp=sharing',
