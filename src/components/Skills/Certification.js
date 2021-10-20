@@ -47,6 +47,10 @@ const Certifications = () => {
                 {item.title}
               </Typography>
 
+              <Typography align='center' variant='subtitle1'>
+                Date: {item.date}
+              </Typography>
+
               <Typography
                 display='block'
                 component='a'
@@ -56,10 +60,6 @@ const Certifications = () => {
                 sx={{ color: 'primary.main', textDecoration: 'none' }}
               > 
                 View
-              </Typography>
-
-              <Typography align='center' variant='subtitle1'>
-                Date: {item.date}
               </Typography>
             </Box>
           </Grid>
