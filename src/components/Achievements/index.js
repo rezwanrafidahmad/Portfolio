@@ -13,7 +13,13 @@ const Achievements = () => {
       >
         Achievements
       </Typography>
-      <Grid container spacing={isSmall ? 3 : 8} alignItems='stretch'>
+      <Grid
+        direction='row'
+        justifyContent='center'
+        container
+        spacing={isSmall ? 3 : 8}
+        alignItems='stretch'
+      >
         {data.map((items) => (
           <Grid key={items.id} item xs={12} sm={6}>
             <CAMP items={items} />

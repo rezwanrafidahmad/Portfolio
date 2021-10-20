@@ -13,7 +13,13 @@ const Training = () => {
       >
         Training
       </Typography>
-      <Grid container spacing={isSmall ? 3 : 8} alignItems='stretch'>
+      <Grid
+        container
+        direction='row'
+        justifyContent='center'
+        spacing={isSmall ? 3 : 8}
+        alignItems='stretch'
+      >
         {data.map((items) => (
           <Grid key={items.id} item xs={12} sm={6}>
             <CAMP items={items} />

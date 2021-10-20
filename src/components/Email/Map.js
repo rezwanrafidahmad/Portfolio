@@ -1,13 +1,13 @@
 import { useState } from 'react'
 import ReactMapGl, { Marker } from 'react-map-gl'
-
 import pin from 'img/pin.svg'
 import 'mapbox-gl/dist/mapbox-gl.css'
+import data from 'Documentation/Map/data'
 
 const Map = () => {
   const [viewport, setViewport] = useState({
-    latitude: 23.8212,
-    longitude: 90.3937,
+    latitude: data.latitude,
+    longitude: data.longitude,
     width: '100%',
     height: '87%',
     zoom: 12,

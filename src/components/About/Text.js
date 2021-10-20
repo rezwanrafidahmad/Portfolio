@@ -23,10 +23,7 @@ const Text = () => {
       >
         About Me
       </Typography>
-      <Typography
-        variant='body1'
-        sx={{ color: 'GrayText', mt: 2, textAlign: 'justify' }}
-      >
+      <Typography variant='body1' sx={{ color: 'GrayText', mt: 2 }}>
         {data.description}
       </Typography>
       <Button
