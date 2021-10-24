@@ -4,6 +4,16 @@ const data = [
   {
     id: 1,
     img: ieee_logo,
+    title: '(Accepted) Transfer Learning using Convolutional Neural Network for Covid-19 Detection with X-Ray Images',
+    date: 'Pending Conference',
+    institute: 'International Conference on Advance Computing and Ingenious Technology in Engineering Science (ICACITEE)',
+    description: 'Paper accepted, awaiting for conference',
+    skills: ['Transfer Learning', 'Convolutional Neural Networks', 'Covid', 'X-Ray'],
+    link: 'http://www.icacitee.com/',
+  },
+  {
+    id: 1,
+    img: ieee_logo,
     title: 'Prediction of Epileptic Seizures using Support Vector Machine and Regularization',
     date: 'Nov 2020',
     institute: '2020 IEEE Region 10 Symposium (TENSYMP)',
