@@ -7,7 +7,7 @@ const data = [
     title: '(Accepted) Transfer Learning using Convolutional Neural Network for Covid-19 Detection with X-Ray Images',
     date: 'Pending Conference',
     institute: 'International Conference on Advance Computing and Ingenious Technology in Engineering Science (ICACITEE)',
-    description: 'Paper accepted, awaiting for conference',
+    description: 'Paper accepted, waiting for conference (30~31st December, 2021)',
     skills: ['Transfer Learning', 'Convolutional Neural Networks', 'Covid', 'X-Ray'],
     link: 'http://www.icacitee.com/',
   },
