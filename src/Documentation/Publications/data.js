@@ -5,7 +5,7 @@ const data = [
   {
     id: 1,
     img: publication_scopus,
-    title: '(Accepted) Transfer Learning using Convolutional Neural Network for Covid-19 Detection with X-Ray Images',
+    title: '(Accepted) Transfer Learning using CNN for Covid-19 Detection with X-Ray Images',
     date: 'Pending Conference',
     institute: 'International Conference on Advance Computing and Ingenious Technology in Engineering Science (ICACITEE)',
     description: 'Paper accepted, waiting for conference (30~31st December, 2021)',
