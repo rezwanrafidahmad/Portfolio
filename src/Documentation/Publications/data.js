@@ -1,9 +1,10 @@
 import ieee_logo from 'img/ieee_logo.png'
+import publication_scopus from 'img/publication_scopus.png'
 
 const data = [
   {
     id: 1,
-    img: ieee_logo,
+    img: publication_scopus,
     title: '(Accepted) Transfer Learning using Convolutional Neural Network for Covid-19 Detection with X-Ray Images',
     date: 'Pending Conference',
     institute: 'International Conference on Advance Computing and Ingenious Technology in Engineering Science (ICACITEE)',
@@ -12,7 +13,7 @@ const data = [
     link: 'http://www.icacitee.com/',
   },
   {
-    id: 1,
+    id: 2,
     img: ieee_logo,
     title: 'Prediction of Epileptic Seizures using Support Vector Machine and Regularization',
     date: 'Nov 2020',
