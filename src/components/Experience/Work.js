@@ -66,17 +66,17 @@ const Work = () => {
                 {res.date}
               </Typography>
               <Typography variant='subtitle2' sx={{ color: 'GrayText', my: 2 }}>
-                Responsibility :
+                Responsibilities :
               </Typography>
               {res.responsibles.map((task) => (
                 <li>
-                  <Typography
+                  {/* <Typography
                     component='span'
                     variant='subtitle1'
                     sx={{ fontWeight: 'bold' }}
                   >
                     {task.title}:{' '}
-                  </Typography>
+                  </Typography> */}
                   <Typography
                     component='span'
                     variant='subtitle2'
