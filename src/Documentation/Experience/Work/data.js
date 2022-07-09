@@ -1,51 +1,80 @@
 const data = [
   {
     id: 1,
-    title: 'Software Engineer',
-    company: 'ServicEngine BPO',
-    companyLink: 'http://www.google.com',
+    title: 'Software Engineer (Data Analyst)',
+    company: 'SEBPO (ServicEngine Ltd.)',
+    companyLink: 'https://sebpo.com/',
     projects: [
       {
         id: 1,
-        name: 'Project A',
-        date: '2020 Mar - Present',
+        name: 'Project - Moody’s Data Analytics',
+        date: '2021 May - 2022 June',
         responsibles: [
           {
             id: 1,
-            title: 'Web Scraping',
-            desc: 'Scraping data from websites using Groovy, Python and Selenium.',
+            desc: 'Writing SQL Queries and Python Scripts in HIVE/PySpark as per business logic on financial datasets.',
           },
           {
             id: 2,
-            title: 'Data Processing & Transformation',
-            desc: 'Processing and Transforming unstructured data (pdf, images etc.) to structured data using OCR and Image Processing Tools.',
+            desc: 'Understanding and analyzing data - financial trends of public and private companies.',
           },
           {
             id: 3,
-            title: 'Text & Data Analytics',
-            desc: 'Validate and cross-check text data by implementing Machine Learning models using Python.',
+            desc: 'Giving critical feedback and providing recommendations to update business logic where necessary.',
+          },
+          {
+            id: 4,
+            desc: 'Generating and publishing dashboards using Microsoft PowerBI, Excel from aggregated data.',
+          },
+          {
+            id: 5,
+            desc: 'Updating dashboards and datasets on monthly/quarterly basis, making changes if needed.',
           },
         ],
       },
       {
         id: 2,
-        name: 'Project B',
-        date: '2020 Mar - Present',
+        name: 'Project - Moody’s BvD',
+        date: '2020 September - 2021 April',
         responsibles: [
           {
             id: 1,
-            title: 'Web Scraping',
-            desc: 'Scraping data from websites using Groovy, Python and Selenium.',
+            desc: 'Web/Data Scraping using Python and Selenium on public/private utility websites and documents (balance sheet, income statement etc.).',
           },
           {
             id: 2,
-            title: 'Data Processing & Transformation',
-            desc: 'Processing and Transforming unstructured data (pdf, images etc.) to structured data using OCR and Image Processing Tools.',
+            desc: '2. Automating downloading of files from websites and dumping in shared storage for further processing.',
           },
           {
             id: 3,
-            title: 'Text & Data Analytics',
-            desc: 'Validate and cross-check text data by implementing Machine Learning models using Python.',
+            desc: 'Using TesseractOCR and advanced libraries to extract data from images.',
+          },
+          {
+            id: 4,
+            desc: 'Writing transformation scripts in Python which transforms and models data from multiple data types/sources (datasets, pdf, image) using pandas, numpy etc.',
+          },
+          {
+            id: 5,
+            desc: 'Exporting transformed data in AWS S3 Bucket in the form of CSV, XML etc.',
+          },
+        ],
+      },
+      {
+        id: 3,
+        name: 'Project - Moody’s Web Scraping',
+        date: '2020 March - 2020 August',
+        responsibles: [
+          {
+            id: 1,
+            desc: 'Scraping data from websites using Java/Groovy on corporate public/private entities.',
+          },
+          {
+            id: 2,
+            desc: ' Debgugging code and checking runtime/compilation errors in Groovy scripts (repair scripts).',
+          },
+          {
+            id: 3,
+            desc: 'Cross-checking data and further filtering before exporting in CSV, JSON, XML.',
           },
         ],
       },
