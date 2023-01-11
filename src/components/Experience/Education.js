@@ -75,7 +75,7 @@ const Education = () => {
                   variant='subtitle1'
                   sx={{ fontWeight: 'bold' }}
                 >
-                  Courses:{' '}
+                    Publisher:{' '}
                 </Typography>
                 {e.publisher}
               </Typography>
