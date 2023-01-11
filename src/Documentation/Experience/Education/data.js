@@ -7,8 +7,8 @@ const data = [
     date: 'September 2023',
     thesis:
     'Prediction of Epileptic Seizures using Support Vector Machine and Regularization',
+    publisher: 'Data Science Principles and Practices, Practical Business Analytics, Database Systems, Computational Intelligence, Natural Language Processing, Machine Learning and Data Mining, Cloud Computing, Advanced challenges in web technologies',
     published: '2032',
-    courses: 'Data Science Principles and Practices, Practical Business Analytics, Database Systems, Computational Intelligence, Natural Language Processing, Machine Learning and Data Mining, Cloud Computing, Advanced challenges in web technologies'    
   },
 
   {
@@ -19,8 +19,8 @@ const data = [
     date: 'Oct 2020',
     thesis:
       'Prediction of Epileptic Seizures using Support Vector Machine and Regularization',
-    courses: 'ads',
-    published: '2032'
+    publisher: 'ads',
+    published: '2032',
   },
 ]
 

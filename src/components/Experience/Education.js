@@ -77,7 +77,7 @@ const Education = () => {
                 >
                   Courses:{' '}
                 </Typography>
-                {e.courses}
+                {e.publisher}
               </Typography>
               <Typography variant='subtitle1' sx={{ color: 'GrayText' }}>
                 <Typography
