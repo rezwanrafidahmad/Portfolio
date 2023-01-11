@@ -23,16 +23,6 @@ const data = [
     skills: ['Project Management', 'Agile Practices', 'Risk Assessment'],
     link: 'https://drive.google.com/file/d/14itAPgPluBRz8M75RVgepvTduQwRGvmj/view?usp=sharing',
   },
-  {
-    id: 3,
-    img: java_training_logo,
-    title: 'Top-up IT (Java)',
-    date: 'March 2018',
-    institute: 'LICT, Bangladesh Computer Council',
-    description: '260-hour Instructor led live training on Fundamentals ~ Advanced Java for Enterprise Application Development using Spring Core, MVC and Boot.',
-    skills: ['Java SE', 'Java EE', 'Spring MVC', 'Spring Boot', 'Hibernate', 'MySQL', 'HTML/CSS'],
-    link: 'https://drive.google.com/file/d/1NV8UNWuU07wZ8DccihdcLD8Txl5YX4ez/view?usp=sharing',
-  },
 ]
 
 export default data

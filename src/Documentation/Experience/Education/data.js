@@ -1,6 +1,18 @@
 const data = [
   {
     id: 1,
+    degree: 'MSc in Data Science',
+    university: 'University of Surrey',
+    link: 'https://www.surrey.ac.uk/postgraduate/data-science-msc',
+    date: 'September 2023',
+    Courses:
+      'Prediction of Epileptic Seizures using Support Vector Machine and Regularization',
+    publisher: 'IEEE',
+    published: '2020 IEEE Region 10 Symposium (TENSYMP)',
+  },
+
+  {
+    id: 2,
     degree: 'Bachelor of Science on Computer Science',
     university: 'BRAC University',
     link: 'https://www.bracu.ac.bd/',
@@ -9,20 +21,6 @@ const data = [
       'Prediction of Epileptic Seizures using Support Vector Machine and Regularization',
     publisher: 'IEEE',
     published: '2020 IEEE Region 10 Symposium (TENSYMP)',
-  },
-  {
-    id: 2,
-    degree: 'Edexcel International A Levels',
-    university: 'Academia',
-    link: 'https://academiaschool.edu.bd/',
-    date: 'Jan 2016',
-  },
-  {
-    id: 3,
-    degree: 'Edexcel International GCSE',
-    university: 'Academia',
-    link: 'https://academiaschool.edu.bd/',
-    date: 'Jan 2014',
   },
 ]
 
