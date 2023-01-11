@@ -5,6 +5,9 @@ const data = [
     university: 'University of Surrey',
     link: 'https://www.surrey.ac.uk/postgraduate/data-science-msc',
     date: 'September 2023',
+    thesis:
+    'Prediction of Epileptic Seizures using Support Vector Machine and Regularization',
+    published: '2032',
     courses: 'Data Science Principles and Practices, Practical Business Analytics, Database Systems, Computational Intelligence, Natural Language Processing, Machine Learning and Data Mining, Cloud Computing, Advanced challenges in web technologies'    
   },
 
@@ -14,9 +17,10 @@ const data = [
     university: 'BRAC University',
     link: 'https://www.bracu.ac.bd/academics/departments/computer-science-and-engineering/bachelor-science-computer-science',
     date: 'Oct 2020',
-    courses: 'ads',
     thesis:
       'Prediction of Epileptic Seizures using Support Vector Machine and Regularization',
+    courses: 'ads',
+    published: '2032'
   },
 ]
 
