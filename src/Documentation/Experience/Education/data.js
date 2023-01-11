@@ -10,6 +10,20 @@ const data = [
     publisher: 'IEEE',
     published: '2020 IEEE Region 10 Symposium (TENSYMP)',
   },
+  {
+    id: 2,
+    degree: 'Edexcel International A Levels',
+    university: 'Academia',
+    link: 'https://academiaschool.edu.bd/',
+    date: 'Jan 2016',
+  },
+  {
+    id: 3,
+    degree: 'Edexcel International GCSE',
+    university: 'Academia',
+    link: 'https://academiaschool.edu.bd/',
+    date: 'Jan 2014',
+  },
 ]
 
 export default data
