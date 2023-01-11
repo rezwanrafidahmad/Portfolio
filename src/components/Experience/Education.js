@@ -75,9 +75,9 @@ const Education = () => {
                   variant='subtitle1'
                   sx={{ fontWeight: 'bold' }}
                 >
-                  Publisher:{' '}
+                  Courses:{' '}
                 </Typography>
-                {e.publisher}
+                {e.courses}
               </Typography>
               <Typography variant='subtitle1' sx={{ color: 'GrayText' }}>
                 <Typography
