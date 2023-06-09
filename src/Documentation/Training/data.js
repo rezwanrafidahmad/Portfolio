@@ -1,6 +1,5 @@
 import csm from 'img/csm.png'
 import capm_logo from 'img/capm_logo.png'
-import java_training_logo from 'img/java_training_logo.png'
 
 const data = [
   {
