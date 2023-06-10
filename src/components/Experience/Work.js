@@ -56,7 +56,7 @@ const Work = () => {
           {job.projects.map((res) => (
             <>
               <Typography variant='body1' sx={{ fontWeight: 'bold', mt: 2 }}>
-                {res.name}:
+                {res.name}
               </Typography>
               <Typography
                 component='span'
