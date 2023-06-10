@@ -1,6 +1,5 @@
 import { Container } from '@mui/material'
 import About from 'components/About'
-// import Achievements from 'components/Achievements'
 import Coursework from 'components/Coursework'
 import Email from 'components/Email'
 import Experience from 'components/Experience'
@@ -16,6 +15,9 @@ const HomePage2 = ({ setNav }) => {
       <section id='home'>
         <Home setNav={setNav} />
       </section>
+      <section id='portfolio'>
+        <Portfolio />
+      </section>
       <section id='about'>
         <About />
       </section>
@@ -25,9 +27,6 @@ const HomePage2 = ({ setNav }) => {
       <section id='experience'>
         <Experience />
       </section>
-      {/* <section id='achievements'>
-        <Achievements />
-      </section> */}
       <section id='training'>
         <Training />
       </section>
@@ -36,9 +35,6 @@ const HomePage2 = ({ setNav }) => {
       </section>
       <section id='publications'>
         <Publications />
-      </section>
-      <section id='portfolio'>
-        <Portfolio />
       </section>
       <section id='contact'>
         <Email />

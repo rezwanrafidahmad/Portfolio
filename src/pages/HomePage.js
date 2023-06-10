@@ -1,7 +1,6 @@
 import { Container } from '@mui/material'
 import Animate from 'Animate'
 import About from 'components/About'
-// import Achievements from 'components/Achievements'
 import Coursework from 'components/Coursework'
 import Email from 'components/Email'
 import Experience from 'components/Experience'
@@ -25,9 +24,6 @@ const HomePage = ({ setNav }) => {
         <Animate>
           <Experience setNav={setNav} />
         </Animate>
-        {/* <Animate>
-          <Achievements setNav={setNav} />
-        </Animate> */}
         <Animate>
           <Training setNav={setNav} />
         </Animate>
