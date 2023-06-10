@@ -1,13 +1,13 @@
 import { Container } from '@mui/material'
 import About from 'components/About'
-import Coursework from 'components/Coursework'
+// import Coursework from 'components/Coursework'
 import Email from 'components/Email'
 import Experience from 'components/Experience'
 import Home from 'components/Home'
 import Portfolio from 'components/Portfolio'
 import Publications from 'components/Publications'
 import Skills from 'components/Skills'
-import Training from 'components/Training'
+// import Training from 'components/Training'
 
 const HomePage2 = ({ setNav }) => {
   return (
@@ -27,12 +27,12 @@ const HomePage2 = ({ setNav }) => {
       <section id='experience'>
         <Experience />
       </section>
-      <section id='training'>
+      {/* <section id='training'>
         <Training />
       </section>
       <section id='coursework'>
         <Coursework />
-      </section>
+      </section> */}
       <section id='publications'>
         <Publications />
       </section>
