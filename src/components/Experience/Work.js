@@ -42,7 +42,7 @@ const Work = () => {
           }}
         >
           <Typography variant='h6'>
-            {job.title}{job.company}{' '}
+            {job.title}{' '}
             <Typography
               href={job.companyLink}
               target='_blank'
