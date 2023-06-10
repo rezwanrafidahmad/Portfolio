@@ -41,7 +41,7 @@ const Work = () => {
             },
           }}
         >
-          <Typography variant='h6'>
+          <Typography variant='h5'>
             {job.title}{' '}
           </Typography>
 
