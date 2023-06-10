@@ -42,7 +42,7 @@ const Work = () => {
           }}
         >
           <Typography variant='h6'>
-            {job.title}{' '}
+            {job.title}{job.company}{' '}
             <Typography
               href={job.companyLink}
               target='_blank'
@@ -50,7 +50,7 @@ const Work = () => {
               variant='h6'
               sx={{ color: 'primary.main', textDecoration: 'none' }}
             >
-              {job.company}
+              {/* {job.company} */}
             </Typography>
           </Typography>
           {job.projects.map((res) => (
