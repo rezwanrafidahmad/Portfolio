@@ -13,7 +13,7 @@ const Work = () => {
               flexDirection: 'column',
               justifyContent: 'space-between',
               alignItems: 'center',
-              textAlign: 'justify',
+              // textAlign: 'justify',
             }
           : {}
       }
