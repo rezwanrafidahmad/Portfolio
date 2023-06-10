@@ -80,7 +80,7 @@ const Work = () => {
                   <Typography
                     component='span'
                     variant='subtitle2'
-                    sx={{ textAlign: 'justify' }}
+                    // sx={{ textAlign: 'justify' }}
                   >
                     {task.desc}
                   </Typography>
