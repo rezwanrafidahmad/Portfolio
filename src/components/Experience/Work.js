@@ -43,15 +43,16 @@ const Work = () => {
         >
           <Typography variant='h6'>
             {job.title}{' '}
-            <Typography
-              href={job.companyLink}
-              target='_blank'
-              component='a'
-              variant='h6'
-              sx={{ color: 'primary.main', textDecoration: 'none' }}
-            >
-              {/* {job.company} */}
-            </Typography>
+          </Typography>
+
+          <Typography
+            href={job.companyLink}
+            target='_blank'
+            component='a'
+            variant='h6'
+            sx={{ color: 'primary.main', textDecoration: 'none' }}
+          >
+            {job.company}
           </Typography>
           {job.projects.map((res) => (
             <>
