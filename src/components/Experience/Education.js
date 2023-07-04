@@ -50,6 +50,7 @@ const Education = () => {
           >
               {e.university}
             </Typography>
+            <br />
           <Typography
             component='span'
             variant='subtitle2'
