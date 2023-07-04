@@ -82,7 +82,8 @@ const Education = () => {
                 {e.publisher}
               </Typography> : <></>
               }
-              <Typography variant='subtitle1' sx={{ color: 'GrayText' }}>
+              {
+                e.published ? <Typography variant='subtitle1' sx={{ color: 'GrayText', mt: 2 }}>
                 <Typography
                   component='span'
                   variant='subtitle1'
@@ -91,7 +92,8 @@ const Education = () => {
                   Published:{' '}
                 </Typography>
                 {e.published}
-              </Typography>
+              </Typography> : <></>
+              }
             </>
           )}
         </Paper>
