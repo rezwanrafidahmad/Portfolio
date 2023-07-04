@@ -37,41 +37,40 @@ export default function Modal({ item, open, setOpen }) {
                     </Grid>
                   ))}
                 </Grid>
-
-                  <Button
-                    variant='contained'
-                    disableElevation
-                    target='_blank'
-                    sx={{
-                      textTransform: 'none',
-                      borderRadius: 30,
-                      color: 'white',
-                      my: 4,
-                      px: 3,
-                      fontSize: 15,
-                      fontWeight: 'bold',
-                    }}
-                    href={githublink}
-                  >
-                    Github
-                  </Button>
-                  <Button
-                    variant='contained'
-                    disableElevation
-                    target='_blank'
-                    sx={{
-                      textTransform: 'none',
-                      borderRadius: 30,
-                      color: 'white',
-                      my: 4,
-                      px: 3,
-                      fontSize: 15,
-                      fontWeight: 'bold',
-                    }}
-                    href={website_link}
-                  >
-                    View Website
-                  </Button>
+                <Button
+                  variant='contained'
+                  disableElevation
+                  target='_blank'
+                  sx={{
+                    textTransform: 'none',
+                    borderRadius: 30,
+                    color: 'white',
+                    my: 4,
+                    px: 3,
+                    fontSize: 15,
+                    fontWeight: 'bold',
+                  }}
+                  href={githublink}
+                >
+                  Github
+                </Button>
+                <Button
+                  variant='contained'
+                  disableElevation
+                  target='_blank'
+                  sx={{
+                    textTransform: 'none',
+                    borderRadius: 30,
+                    color: 'white',
+                    my: 4,
+                    px: 3,
+                    fontSize: 15,
+                    fontWeight: 'bold',
+                  }}
+                  href={website_link}
+                >
+                  View Website
+                </Button>
               </DialogContentText>
             </Grid>
             <Grid item xs={12} sm={7}>
