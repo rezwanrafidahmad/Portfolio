@@ -7,7 +7,7 @@ const data = [
     date: 'Oct 2020',
     thesis:
       'Prediction of Epileptic Seizures using Support Vector Machine and Regularization',
-    publisher: 'IEEE',
+    publisher: null,
     published: '2020 IEEE Region 10 Symposium (TENSYMP)',
   },
 
