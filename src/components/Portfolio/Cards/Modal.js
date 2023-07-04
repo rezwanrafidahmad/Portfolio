@@ -42,7 +42,6 @@ export default function Modal({ item, open, setOpen }) {
                   sx={{
                     display: 'flex',
                     flexDirection: 'column',
-                    gap: '10px',
                   }}
                 >
                   <Button
