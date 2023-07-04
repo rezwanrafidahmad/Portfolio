@@ -11,14 +11,11 @@ import { useState } from 'react'
 import { Box } from '@mui/system'
 import MenuIcon from '@mui/icons-material/Menu'
 const data = [
+  'Portfolio',
   'About',
   'Skills',
   'Experience',
-  // 'Achievements',
-  'Training',
-  'Coursework',
   'Publications',
-  'Portfolio',
   'Contact',
 ]
 

@@ -71,7 +71,6 @@ export default function Navbar(props) {
                   name='Technical Skills | Certifications'
                 />
                 <MyNavLink to='experience' name='Work Experience | Education' />
-                {/* <MyNavLink to='achievements' name='Achievements' /> */}
                 <MyNavLink to='training' name='Training' />
                 <MyNavLink to='coursework' name='Relevant Coursework' />
                 <MyNavLink to='publications' name='Publications' />
