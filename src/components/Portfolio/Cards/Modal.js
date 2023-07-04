@@ -54,6 +54,7 @@ export default function Modal({ item, open, setOpen }) {
                 >
                   Github
                 </Button>
+                <br />
                 <Button
                   variant='contained'
                   disableElevation
