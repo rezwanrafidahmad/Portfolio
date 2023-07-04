@@ -38,12 +38,6 @@ export default function Modal({ item, open, setOpen }) {
                   ))}
                 </Grid>
 
-                <Box
-                  sx={{
-                    display: 'flex',
-                    flexDirection: 'column',
-                  }}
-                >
                   <Button
                     variant='contained'
                     disableElevation
@@ -78,7 +72,6 @@ export default function Modal({ item, open, setOpen }) {
                   >
                     View Website
                   </Button>
-                </Box>
               </DialogContentText>
             </Grid>
             <Grid item xs={12} sm={7}>
