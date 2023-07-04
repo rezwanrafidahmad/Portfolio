@@ -12,7 +12,7 @@ export default function Modal({ item, open, setOpen }) {
 
   if (!item) return ''
 
-  const { name, img1, img2, imgSub1, imgSub2, desc, skills } = item
+  const { name, img1, img2, imgSub1, imgSub2, desc, skills, githublink, website_link } = item
 
   return (
     <div>
@@ -40,6 +40,7 @@ export default function Modal({ item, open, setOpen }) {
                 <Button
                   variant='contained'
                   disableElevation
+                  target='_blank'
                   sx={{
                     textTransform: 'none',
                     borderRadius: 30,
@@ -49,9 +50,26 @@ export default function Modal({ item, open, setOpen }) {
                     fontSize: 15,
                     fontWeight: 'bold',
                   }}
-                  href='https://mui.com/'
+                  href={githublink}
                 >
-                  Live Demo
+                  Github
+                </Button>
+                <Button
+                  variant='contained'
+                  disableElevation
+                  target='_blank'
+                  sx={{
+                    textTransform: 'none',
+                    borderRadius: 30,
+                    color: 'white',
+                    my: 4,
+                    px: 3,
+                    fontSize: 15,
+                    fontWeight: 'bold',
+                  }}
+                  href={website_link}
+                >
+                  View Website
                 </Button>
               </DialogContentText>
             </Grid>
