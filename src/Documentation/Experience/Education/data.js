@@ -13,7 +13,7 @@ const data = [
 
   {
     id: 2,
-    degree: 'Bachelor of Science on Computer Science',
+    degree: 'BSc in Computer Science',
     university: 'BRAC University',
     link: 'https://www.bracu.ac.bd/',
     date: 'Oct 2020',

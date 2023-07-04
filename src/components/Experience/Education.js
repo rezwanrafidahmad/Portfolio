@@ -40,16 +40,16 @@ const Education = () => {
         >
           <Typography variant='h6'>
             {e.degree}{' '}
-            <Typography
-              href={e.link}
-              target='_blank'
-              component='a'
-              variant='h6'
-              sx={{ color: 'primary.main', textDecoration: 'none' }}
-            >
+          </Typography>
+          <Typography
+            href={e.link}
+            target='_blank'
+            component='a'
+            variant='h6'
+            sx={{ color: 'primary.main', textDecoration: 'none' }}
+          >
               {e.university}
             </Typography>
-          </Typography>
           <Typography
             component='span'
             variant='subtitle2'
