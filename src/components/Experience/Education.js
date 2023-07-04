@@ -1,7 +1,7 @@
 import { Box, Paper, Typography, useMediaQuery, Grid, Button } from '@mui/material'
 import Color from 'color'
 import data from 'Documentation/Experience/Education/data'
-import { bsc_modules, msc_modules } from 'Documentation/Education/module_info'
+import {bsc_modules, msc_modules } from 'Documentation/Experience/Education/module_info'
 
 const Education = () => {
   const isSmall = useMediaQuery((theme) => theme.breakpoints.down('sm'))
