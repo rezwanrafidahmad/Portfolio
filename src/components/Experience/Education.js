@@ -1,6 +1,7 @@
-import { Box, Paper, Typography, useMediaQuery } from '@mui/material'
+import { Box, Paper, Typography, useMediaQuery, Grid, Button } from '@mui/material'
 import Color from 'color'
 import data from 'Documentation/Experience/Education/data'
+import { bsc_modules, msc_modules } from 'Documentation/Education/module_info'
 
 const Education = () => {
   const isSmall = useMediaQuery((theme) => theme.breakpoints.down('sm'))
@@ -58,6 +59,7 @@ const Education = () => {
           >
             {e.date}
           </Typography>
+
           {
                 e.modules ? <Typography variant='subtitle1' sx={{ color: 'GrayText', mt: 2 }}>
                 <Typography
@@ -67,11 +69,15 @@ const Education = () => {
                 >
                   Modules:{' '}
                 </Typography>
-                {e.modules}
+                  <Grid container spacing={2} sx={{ mt: 3 }}>
+                  {msc_modules.map((module) => (
+                    <Grid item key={module}>
+                      <Button variant='outlined'>{module}</Button>
+                    </Grid>
+                  ))}
+                </Grid>
               </Typography> : <></>
-              }
-
-
+          }
 
           {e.thesis && (
             <>
