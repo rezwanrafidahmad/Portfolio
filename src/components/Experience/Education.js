@@ -58,6 +58,21 @@ const Education = () => {
           >
             {e.date}
           </Typography>
+          {
+                e.modules ? <Typography variant='subtitle1' sx={{ color: 'GrayText', mt: 2 }}>
+                <Typography
+                  component='span'
+                  variant='subtitle1'
+                  sx={{ fontWeight: 'bold' }}
+                >
+                  Modules:{' '}
+                </Typography>
+                {e.modules}
+              </Typography> : <></>
+              }
+
+
+
           {e.thesis && (
             <>
               <Typography variant='subtitle1' sx={{ color: 'GrayText', my: 2 }}>

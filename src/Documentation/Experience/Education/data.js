@@ -8,6 +8,7 @@ const data = [
     thesis: null,
     publisher: null,
     published: null,
+    modules: 'Data Science Principles and Practices, Cloud Computing'
   },
 
   {
