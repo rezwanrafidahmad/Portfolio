@@ -70,7 +70,8 @@ const Education = () => {
                 </Typography>
                 {e.thesis}
               </Typography>
-              <Typography variant='subtitle1' sx={{ color: 'GrayText', mt: 2 }}>
+              {
+                e.publisher ? <Typography variant='subtitle1' sx={{ color: 'GrayText', mt: 2 }}>
                 <Typography
                   component='span'
                   variant='subtitle1'
@@ -79,7 +80,8 @@ const Education = () => {
                   Publisher:{' '}
                 </Typography>
                 {e.publisher}
-              </Typography>
+              </Typography> : <></>
+              }
               <Typography variant='subtitle1' sx={{ color: 'GrayText' }}>
                 <Typography
                   component='span'
