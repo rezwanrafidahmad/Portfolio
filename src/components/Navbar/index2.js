@@ -65,16 +65,14 @@ export default function Navbar(props) {
                 >
                   Home
                 </Link>
+                <MyNavLink to='portfolio' name='Projects' />
                 <MyNavLink to='about' name='About Me' />
                 <MyNavLink
                   to='skills'
                   name='Technical Skills | Certifications'
                 />
                 <MyNavLink to='experience' name='Work Experience | Education' />
-                <MyNavLink to='training' name='Training' />
-                <MyNavLink to='coursework' name='Relevant Coursework' />
                 <MyNavLink to='publications' name='Publications' />
-                <MyNavLink to='portfolio' name='Projects' />
                 <MyNavLink to='contact' name='Contact' />
               </Stack>
             </Hidden>
