@@ -64,7 +64,7 @@ export default function Portfolio({ setNav }) {
           my: 4,
         }}
       >
-        Recent Portfolio
+        Projects
       </Typography>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Tabs
