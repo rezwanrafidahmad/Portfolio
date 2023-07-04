@@ -74,7 +74,7 @@ export default function Navbar(props) {
                 <MyNavLink to='training' name='Training' />
                 <MyNavLink to='coursework' name='Relevant Coursework' />
                 <MyNavLink to='publications' name='Publications' />
-                <MyNavLink to='portfolio' name='Recent Portfolio' />
+                <MyNavLink to='portfolio' name='Projects' />
                 <MyNavLink to='contact' name='Contact' />
               </Stack>
             </Hidden>
