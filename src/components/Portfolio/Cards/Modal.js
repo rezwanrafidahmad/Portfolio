@@ -3,7 +3,7 @@ import Button from '@mui/material/Button'
 import Dialog from '@mui/material/Dialog'
 import DialogContent from '@mui/material/DialogContent'
 import DialogContentText from '@mui/material/DialogContentText'
-import { Grid, Typography } from '@mui/material'
+import { Grid, Typography, Box } from '@mui/material'
 
 export default function Modal({ item, open, setOpen }) {
   const handleClose = () => {
@@ -37,40 +37,49 @@ export default function Modal({ item, open, setOpen }) {
                     </Grid>
                   ))}
                 </Grid>
-                <Button
-                  variant='contained'
-                  disableElevation
-                  target='_blank'
+
+                <Box
                   sx={{
-                    textTransform: 'none',
-                    borderRadius: 30,
-                    color: 'white',
-                    my: 4,
-                    px: 3,
-                    fontSize: 15,
-                    fontWeight: 'bold',
+                    display: 'flex',
+                    justifyContent: 'space-between',
+                    gap: '10px',
                   }}
-                  href={githublink}
                 >
-                  Github
-                </Button>
-                <Button
-                  variant='contained'
-                  disableElevation
-                  target='_blank'
-                  sx={{
-                    textTransform: 'none',
-                    borderRadius: 30,
-                    color: 'white',
-                    my: 4,
-                    px: 3,
-                    fontSize: 15,
-                    fontWeight: 'bold',
-                  }}
-                  href={website_link}
-                >
-                  View Website
-                </Button>
+                  <Button
+                    variant='contained'
+                    disableElevation
+                    target='_blank'
+                    sx={{
+                      textTransform: 'none',
+                      borderRadius: 30,
+                      color: 'white',
+                      my: 4,
+                      px: 3,
+                      fontSize: 15,
+                      fontWeight: 'bold',
+                    }}
+                    href={githublink}
+                  >
+                    Github
+                  </Button>
+                  <Button
+                    variant='contained'
+                    disableElevation
+                    target='_blank'
+                    sx={{
+                      textTransform: 'none',
+                      borderRadius: 30,
+                      color: 'white',
+                      my: 4,
+                      px: 3,
+                      fontSize: 15,
+                      fontWeight: 'bold',
+                    }}
+                    href={website_link}
+                  >
+                    View Website
+                  </Button>
+                </Box>
               </DialogContentText>
             </Grid>
             <Grid item xs={12} sm={7}>
