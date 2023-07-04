@@ -41,7 +41,7 @@ export default function Modal({ item, open, setOpen }) {
                 <Box
                   sx={{
                     display: 'flex',
-                    justifyContent: 'space-between',
+                    flexDirection: 'column',
                     gap: '10px',
                   }}
                 >
