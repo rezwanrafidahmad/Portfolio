@@ -67,9 +67,9 @@ const Education = () => {
                   variant='subtitle1'
                   sx={{ fontWeight: 'bold' }}
                 >
-                  Modules:{' '}
+                  Modules
                 </Typography>
-                  <Grid container spacing={1} sx={{ mt: 3 }}>
+                  <Grid container spacing={1} sx={{ mt: 2 }}>
                   {msc_modules.map((module) => (
                     <Grid item key={module}>
                       <Button variant='outlined'>{module}</Button>
