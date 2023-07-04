@@ -69,7 +69,7 @@ const Education = () => {
                 >
                   Modules:{' '}
                 </Typography>
-                  <Grid container spacing={2} sx={{ mt: 3 }}>
+                  <Grid container spacing={1} sx={{ mt: 3 }}>
                   {msc_modules.map((module) => (
                     <Grid item key={module}>
                       <Button variant='outlined'>{module}</Button>
