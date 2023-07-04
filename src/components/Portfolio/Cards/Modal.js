@@ -18,7 +18,7 @@ export default function Modal({ item, open, setOpen }) {
     <div>
       <Dialog fullWidth maxWidth='lg' open={open} onClose={handleClose}>
         <DialogContent>
-          <Grid container spacing={5} sx={{ p: 1 }}>
+          <Grid container spacing={5} sx={{ p: 2 }}>
             <Grid item xs={12} sm={5}>
               <DialogContentText id='alert-dialog-description'>
                 <Typography sx={{ my: 2 }} variant='h3'>
