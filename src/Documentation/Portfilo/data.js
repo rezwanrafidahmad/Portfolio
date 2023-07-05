@@ -1,5 +1,7 @@
 import monte_carlo_cover from 'img/monte_carlo_cover.jpg'
 import monte_carlo_1 from 'img/monte_carlo_1.jpg'
+import monte_carlo_2 from 'img/monte_carlo_2.jpg'
+
 
 const data = [
   {
@@ -8,7 +10,7 @@ const data = [
 
     img0: monte_carlo_cover,
     img1: monte_carlo_1,
-    img2: null,
+    img2: monte_carlo_2,
     img3: null,
 
     imgSub1: '1. Warming up AWS Scalable Services - Lambda, EC2 and ',
