@@ -4,9 +4,9 @@ import monte_carlo_2 from 'img/monte_carlo_2.jpg'
 import monte_carlo_3 from 'img/monte_carlo_3.jpg'
 
 import imdb_cover from 'img/imdb_cover.jpg'
-import imdb_1 from 'img/imdb_1.jpg'
-import imdb_2 from 'img/imdb_2.jpg'
-import imdb_3 from 'img/imdb_3.jpg'
+import imdb_1 from 'img/imdb_1.png'
+import imdb_2 from 'img/imdb_2.png'
+import imdb_3 from 'img/imdb_3.png'
 
 const data = [
   {
