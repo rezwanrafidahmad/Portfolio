@@ -16,7 +16,7 @@ import Modal from './Modal'
 // import Modal from './Modal'
 
 export default function SingleCard({ item }) {
-  const { name, img1, skills } = item
+  const { name, img0, skills } = item
 
   const [open, setOpen] = useState(false)
 
@@ -38,7 +38,7 @@ export default function SingleCard({ item }) {
       <CardActionArea component='div' onClick={() => setOpen(true)}>
         <CardMedia
           sx={{ paddingTop: '56.25%', width: '100%', objectFit: 'cover' }}
-          image={img1}
+          image={img0}
           title='Cadr img'
         />
         <CardContent sx={{ minHeight: 150 }}>
