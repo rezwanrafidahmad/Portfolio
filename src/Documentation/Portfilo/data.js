@@ -1,12 +1,12 @@
-import pro1 from 'img/pro1.jpg'
+import prmonte_carlo_cover from 'img/monte_carlo_cover.jpg'
 
 const data = [
   {
     id: 1,
     name: 'Calculating Risks with Monte Carlo Simulation on Zoom Stocks using Cloud Services',
 
-    img1: pro1,
-    img2: pro1,
+    img1: prmonte_carlo_cover,
+    img2: null,
 
     imgSub1: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum',
     imgSub2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum',
