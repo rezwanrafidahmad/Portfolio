@@ -12,7 +12,7 @@ export default function Modal({ item, open, setOpen }) {
 
   if (!item) return ''
 
-  const { name, img1, img2, img3, imgSub1, imgSub2, imgSub3, desc, skills, githublink, website_link } = item
+  const { name, img1, img2, img3, imgSub1, imgSub2, imgSub3, desc, skills, githublink, website_link, youtubelink } = item
 
   return (
     <div>
@@ -71,6 +71,25 @@ export default function Modal({ item, open, setOpen }) {
                 >
                   View Website
                 </Button>
+
+                <Button
+                  variant='contained'
+                  disableElevation
+                  target='_blank'
+                  sx={{
+                    textTransform: 'none',
+                    borderRadius: 30,
+                    color: 'white',
+                    my: 4,
+                    px: 3,
+                    fontSize: 15,
+                    fontWeight: 'bold',
+                  }}
+                  href={youtubelink}
+                >
+                  View in Youtube
+                </Button>
+
               </DialogContentText>
             </Grid>
             <Grid item xs={12} sm={7}>
