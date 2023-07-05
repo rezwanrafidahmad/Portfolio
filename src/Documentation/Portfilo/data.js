@@ -1,7 +1,7 @@
 import monte_carlo_cover from 'img/monte_carlo_cover.jpg'
 import monte_carlo_1 from 'img/monte_carlo_1.jpg'
 import monte_carlo_2 from 'img/monte_carlo_2.jpg'
-// import monte_carlo_3 from 'img/monte_carlo_3.jpg'
+import monte_carlo_3 from 'img/monte_carlo_3.jpg'
 
 const data = [
   {
@@ -11,7 +11,7 @@ const data = [
     img0: monte_carlo_cover,
     img1: monte_carlo_1,
     img2: monte_carlo_2,
-    img3: 'img/monte_carlo_3.jpg',
+    img3: monte_carlo_3,
 
     imgSub1: '1. Warming up AWS Scalable Services - AWS Lambda, EC2 and RDS',
     imgSub2: '2. Calculating the risk and cost associated after warming up',
