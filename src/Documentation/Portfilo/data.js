@@ -1,16 +1,16 @@
-import prmonte_carlo_cover from 'img/monte_carlo_cover.jpg'
+import {monte_carlo_cover, monte_carlo_1} from 'img/monte_carlo_cover.jpg'
 
 const data = [
   {
     id: 1,
     name: 'Calculating Risks with Monte Carlo Simulation on Zoom Stocks using Cloud Services',
 
-    img0: prmonte_carlo_cover,
-    img1: null,
+    img0: monte_carlo_cover,
+    img1: monte_carlo_1,
     img2: null,
     img3: null,
 
-    imgSub1: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum',
+    imgSub1: '1. Warming up AWS Scalable Services - Lambda, EC2 and RDS',
     imgSub2: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum',
     imgSub3: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum',
     desc: 'Calculating risks with Monte Carlo Simulation on trading signals using a multi-cloud application across different cloud services and platforms. Scalable and elastic services such as AWS Lambda, EC2, RDS and Google App Engine were used to create an end-to-end SaaS infrastructure. Cost analysis between different services were performed and estimated operation costs were compared.',
