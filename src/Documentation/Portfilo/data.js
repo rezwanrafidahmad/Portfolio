@@ -3,6 +3,11 @@ import monte_carlo_1 from 'img/monte_carlo_1.jpg'
 import monte_carlo_2 from 'img/monte_carlo_2.jpg'
 import monte_carlo_3 from 'img/monte_carlo_3.jpg'
 
+import imdb_cover from 'img/imdb_cover.jpg'
+import imdb_1 from 'img/imdb_1.jpg'
+import imdb_2 from 'img/imdb_2.jpg'
+import imdb_3 from 'img/imdb_3.jpg'
+
 const data = [
   {
     id: 1,
@@ -23,6 +28,26 @@ const data = [
     githublink : 'https://github.com/shaikhahmad179/monte_carlo_risk_analysis',
     youtubelink: 'https://www.youtube.com/watch?v=_j7hH_B6wco',
   },
+  {
+    id: 2,
+    name: 'Sentiment Analysis using IMDB Dataset',
+
+    img0: imdb_cover,
+    img1: imdb_1,
+    img2: imdb_2,
+    img3: imdb_3,
+
+    imgSub1: '1. Data Visualization - Frequency of sentiments and number of most common words.',
+    imgSub2: '2. System Architecutre/Pipeline of NLP model',
+    imgSub3: '3. Comparing performance of models - F1 Score, Precision, Recall and Mean Cross Val Accuracy',
+    skills: ['Python', 'NLTK', 'Sklearn', 'Pandas', 'NumPy'],
+    desc: 'The IMDB Dataset of 50k Movie Reviews was used to understand the performance of Decision Tree (DT), Random Forest (RF), Perceptron (PPN), Multi-layer Perceptron (MLP), K-Nearest Neighbor (KNN) and Support Vector Machine (SVM) models in the case of sentiment analysis (+ve /-ve), and the Randomized Search Cross-validation technique was employed to find the optimal set of parameters. The hypothesis assumes that some model’s performance will be superior to others, with the expectation that the MLP, due to its hidden layers, would outperform the rest in capturing intricate patterns from textual data for this sentiment analysis classification. However, the other models are not dismissed, as they are also expected to perform competitively given that it’s a binary classification problem.',
+    category: 'Web Development & Cloud Computing',
+    website_link: '',
+    githublink : '',
+    youtubelink: '',
+  },
+
 ]
 
 export default data
