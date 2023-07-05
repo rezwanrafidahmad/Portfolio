@@ -17,7 +17,7 @@ const data = [
     imgSub2: '2. Calculating the risk and cost associated after warming up',
     imgSub3: '3. Audit page to retrieve the logs from AWS Relational Database',
     desc: 'Calculating risks with Monte Carlo Simulation on trading signals using a multi-cloud application across different cloud services and platforms. Scalable and elastic services such as AWS Lambda, EC2, RDS and Google App Engine were used to create an end-to-end SaaS infrastructure. Cost analysis between different services were performed and estimated operation costs were compared.',
-    skills: ['HTML5/CSS3', 'Flask', 'Jinja2', 'AWS Lambda', 'AWS EC2', 'AWS RDS', 'Google App Engine'],
+    skills: ['HTML5/CSS3', 'Python', 'Flask', 'Jinja2', 'AWS Lambda', 'AWS EC2', 'AWS RDS', 'Google App Engine'],
     category: 'Web Development & Cloud Computing',
     website_link: 'https://static-balm-382414.nw.r.appspot.com/',
     githublink : 'https://www.google.com/',
