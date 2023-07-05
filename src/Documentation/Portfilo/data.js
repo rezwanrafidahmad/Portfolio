@@ -20,8 +20,8 @@ const data = [
     skills: ['HTML5/CSS3', 'Python', 'Flask', 'Jinja2', 'AWS Lambda', 'AWS EC2', 'AWS RDS', 'Google App Engine'],
     category: 'Web Development & Cloud Computing',
     website_link: 'https://static-balm-382414.nw.r.appspot.com/',
-    githublink : 'https://www.google.com/',
-    youtubelink: 'https://www.youtube.com',
+    githublink : 'https://github.com/shaikhahmad179/monte_carlo_risk_analysis',
+    youtubelink: 'https://www.youtube.com/watch?v=_j7hH_B6wco',
   },
 ]
 
