@@ -12,7 +12,7 @@ export default function Modal({ item, open, setOpen }) {
 
   if (!item) return ''
 
-  const { name, img1, img2, imgSub1, imgSub2, desc, skills, githublink, website_link } = item
+  const { name, img1, img2, img3, imgSub1, imgSub2, imgSub3, desc, skills, githublink, website_link } = item
 
   return (
     <div>
@@ -91,6 +91,15 @@ export default function Modal({ item, open, setOpen }) {
               />
               <Typography color='GrayText' sx={{ my: 2 }}>
                 {imgSub2}
+              </Typography>
+              <img
+                src={img3}
+                alt='img'
+                width='100%'
+                style={{ borderRadius: 10 }}
+              />
+              <Typography color='GrayText' sx={{ my: 2 }}>
+                {imgSub3}
               </Typography>
             </Grid>
           </Grid>
