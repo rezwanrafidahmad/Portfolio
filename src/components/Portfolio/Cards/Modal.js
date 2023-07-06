@@ -54,6 +54,8 @@ export default function Modal({ item, open, setOpen }) {
                 >
                   Github
                 </Button>
+
+                { website_link ?                  
                 <Button
                   variant='contained'
                   disableElevation
@@ -70,7 +72,7 @@ export default function Modal({ item, open, setOpen }) {
                   href={website_link}
                 >
                   View Website
-                </Button>
+                </Button> : <></>}
 
                 <Button
                   variant='contained'

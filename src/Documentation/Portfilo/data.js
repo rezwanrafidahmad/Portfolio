@@ -43,9 +43,9 @@ const data = [
     skills: ['Python', 'NLTK', 'Sklearn', 'Pandas', 'NumPy'],
     desc: 'The IMDB Dataset of 50k Movie Reviews was used to understand the performance of Decision Tree (DT), Random Forest (RF), Perceptron (PPN), Multi-layer Perceptron (MLP), K-Nearest Neighbor (KNN) and Support Vector Machine (SVM) models in the case of sentiment analysis (+ve /-ve), and the Randomized Search Cross-validation technique was employed to find the optimal set of parameters. The hypothesis assumes that some model’s performance will be superior to others, with the expectation that the MLP, due to its hidden layers, would outperform the rest in capturing intricate patterns from textual data for this sentiment analysis classification. However, the other models are not dismissed, as they are also expected to perform competitively given that it’s a binary classification problem.',
     category: 'Natural Language Processing (NLP)',
-    website_link: '',
-    githublink : '',
-    youtubelink: '',
+    website_link: null,
+    githublink : 'https://github.com/shaikhahmad179/imdb_sentiment_analysis',
+    youtubelink: 'https://www.google.com',
   },
 
 ]
