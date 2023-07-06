@@ -21,7 +21,7 @@ export default function Modal({ item, open, setOpen }) {
           <Grid container spacing={5} sx={{ p: 2 }}>
             <Grid item xs={12} sm={5}>
               <DialogContentText id='alert-dialog-description'>
-              <Typography sx={{ my: 2, textAlign: 'left'}} variant='h3'>
+                <Typography sx={{ my: 2, textAlign: 'center'}} variant='h3'>
                   {name}
                 </Typography>
                 <Typography variant='body1' sx={{ textAlign: 'justify' }}>
