@@ -49,7 +49,7 @@ const data = [
   },
   {
     id: 3,
-    name: 'Breast Cancer Binary Classification using Naive Bayes and Logistic Regression',
+    name: 'Breast Cancer Binary Classification',
 
     img0: imdb_cover,
     img1: imdb_1,
