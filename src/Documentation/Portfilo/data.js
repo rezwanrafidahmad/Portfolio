@@ -9,7 +9,9 @@ import imdb_2 from 'img/imdb_2.png'
 import imdb_3 from 'img/imdb_3.png'
 
 import breast_cancer_cover from 'img/breast_cancer_binary_cover.jpg'
-
+import breast_cancer_binary_1 from 'img/breast_cancer_binary_1.png'
+import breast_cancer_binary_2 from 'img/breast_cancer_binary_2.png'
+import breast_cancer_binary_3 from 'img/breast_cancer_binary_3.png'
 
 const data = [
   {
@@ -55,9 +57,9 @@ const data = [
     name: 'Breast Cancer Binary Classification',
 
     img0: breast_cancer_cover,
-    img1: imdb_1,
-    img2: imdb_2,
-    img3: imdb_3,
+    img1: breast_cancer_binary_1,
+    img2: breast_cancer_binary_2,
+    img3: breast_cancer_binary_3,
 
     imgSub1: '1. Data Visualization - Frequency of sentiments and number of most common words.',
     imgSub2: '2. System Architecutre/Pipeline of NLP model',
