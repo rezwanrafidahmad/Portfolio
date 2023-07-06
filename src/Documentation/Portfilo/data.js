@@ -47,8 +47,25 @@ const data = [
     githublink : 'https://github.com/shaikhahmad179/imdb_sentiment_analysis',
     youtubelink: null,
   },
+  {
+    id: 3,
+    name: 'Breast Cancer Binary Classification using Naive Bayes and Logistic Regression',
 
+    img0: imdb_cover,
+    img1: imdb_1,
+    img2: imdb_2,
+    img3: imdb_3,
 
+    imgSub1: '1. Data Visualization - Frequency of sentiments and number of most common words.',
+    imgSub2: '2. System Architecutre/Pipeline of NLP model',
+    imgSub3: '3. Comparing performance of models - F1 Score, Precision, Recall and Mean Cross Val Accuracy',
+    skills: ['Python', 'Binary Classification', 'Data Preprocessing','Pandas/NumPy', 'Sklearn'],
+    desc: 'The IMDB Dataset of 50k Movie Reviews was used to understand the performance of Decision Tree (DT), Random Forest (RF), Perceptron (PPN), Multi-layer Perceptron (MLP), K-Nearest Neighbor (KNN) and Support Vector Machine (SVM) models in the case of sentiment analysis (+ve /-ve), and the Randomized Search Cross-validation technique was employed to find the optimal set of parameters. The hypothesis assumes that some model’s performance will be superior to others, with the expectation that the MLP, due to its hidden layers, would outperform the rest in capturing intricate patterns from textual data for this sentiment analysis classification. However, the other models are not dismissed, as they are also expected to perform competitively given that it’s a binary classification problem.',
+    category: 'Natural Language Processing (NLP)',
+    website_link: null,
+    githublink : 'https://github.com/shaikhahmad179/imdb_sentiment_analysis',
+    youtubelink: null,
+  },
 
 ]
 
