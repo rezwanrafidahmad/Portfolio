@@ -74,6 +74,7 @@ export default function Modal({ item, open, setOpen }) {
                   View Website
                 </Button> : <></>}
 
+                { youtubelink ?                  
                 <Button
                   variant='contained'
                   disableElevation
@@ -90,7 +91,7 @@ export default function Modal({ item, open, setOpen }) {
                   href={youtubelink}
                 >
                   View in Youtube
-                </Button>
+                </Button> : <></>}
 
               </DialogContentText>
             </Grid>
