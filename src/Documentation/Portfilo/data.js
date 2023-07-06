@@ -8,6 +8,9 @@ import imdb_1 from 'img/imdb_1.png'
 import imdb_2 from 'img/imdb_2.png'
 import imdb_3 from 'img/imdb_3.png'
 
+import breast_cancer_cover from 'img/breast_cancer_binary_cover.jpg'
+
+
 const data = [
   {
     id: 1,
@@ -51,7 +54,7 @@ const data = [
     id: 3,
     name: 'Breast Cancer Binary Classification',
 
-    img0: imdb_cover,
+    img0: breast_cancer_cover,
     img1: imdb_1,
     img2: imdb_2,
     img3: imdb_3,
