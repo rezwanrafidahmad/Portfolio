@@ -61,9 +61,9 @@ const data = [
     img2: breast_cancer_binary_2,
     img3: breast_cancer_binary_3,
 
-    imgSub1: '1. Data Visualization - Frequency of sentiments and number of most common words.',
-    imgSub2: '2. System Architecutre/Pipeline of NLP model',
-    imgSub3: '3. Comparing performance of models - F1 Score, Precision, Recall and Mean Cross Val Accuracy',
+    imgSub1: '1. Finding correlation between features using Pearsons Coefficient Costant',
+    imgSub2: '2. Calculating TP/TN/FP/FN for every iteration (k=10)',
+    imgSub3: '3. Comparing ROC AUC and F1 Score for Logistic Regression and Naive Bayes, for every fold',
     skills: ['Python', 'Binary Classification', 'Data Preprocessing','Pandas/NumPy', 'Sklearn'],
     desc: 'The IMDB Dataset of 50k Movie Reviews was used to understand the performance of Decision Tree (DT), Random Forest (RF), Perceptron (PPN), Multi-layer Perceptron (MLP), K-Nearest Neighbor (KNN) and Support Vector Machine (SVM) models in the case of sentiment analysis (+ve /-ve), and the Randomized Search Cross-validation technique was employed to find the optimal set of parameters. The hypothesis assumes that some model’s performance will be superior to others, with the expectation that the MLP, due to its hidden layers, would outperform the rest in capturing intricate patterns from textual data for this sentiment analysis classification. However, the other models are not dismissed, as they are also expected to perform competitively given that it’s a binary classification problem.',
     category: 'Machine Learning',
