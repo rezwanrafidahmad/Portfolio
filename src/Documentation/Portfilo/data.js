@@ -75,10 +75,10 @@ const data = [
     id: 4,
     name: 'Finding Optimal Parameters and Optimization Techniques using Genetic Algorithms',
 
-    img0: breast_cancer_cover,
-    img1: breast_cancer_binary_1,
-    img2: breast_cancer_binary_2,
-    img3: breast_cancer_binary_3,
+    img0: cifar_10_genetic_cover,
+    img1: cifar_10_genetic_1,
+    img2: cifar_10_genetic_2,
+    img3: cifar_10_genetic_3,
 
     imgSub1: '1. Finding correlation between features using Pearsons Coefficient Costant',
     imgSub2: '2. Calculating TP/TN/FP/FN for every iteration (k=10)',
