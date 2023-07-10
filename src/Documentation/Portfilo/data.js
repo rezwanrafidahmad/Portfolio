@@ -65,12 +65,14 @@ const data = [
     imgSub2: '2. Calculating TP/TN/FP/FN for every iteration (k=10)',
     imgSub3: '3. Comparing ROC AUC and F1 Score for Logistic Regression and Naive Bayes, for every fold',
     skills: ['Python', 'Binary Classification', 'Data Preprocessing','Pandas/NumPy', 'Sklearn'],
-    desc: 'The IMDB Dataset of 50k Movie Reviews was used to understand the performance of Decision Tree (DT), Random Forest (RF), Perceptron (PPN), Multi-layer Perceptron (MLP), K-Nearest Neighbor (KNN) and Support Vector Machine (SVM) models in the case of sentiment analysis (+ve /-ve), and the Randomized Search Cross-validation technique was employed to find the optimal set of parameters. The hypothesis assumes that some model’s performance will be superior to others, with the expectation that the MLP, due to its hidden layers, would outperform the rest in capturing intricate patterns from textual data for this sentiment analysis classification. However, the other models are not dismissed, as they are also expected to perform competitively given that it’s a binary classification problem.',
+    desc : "The Breast Cancer dataset consists of 683 rows with 9 features. The objective of the project is to classify benign cells (0) from malignant (1) using two machine learning algorithms – Logistic Regression and Naïve Bayes. In Data Preprocessing phase, duplicate data were removed, and the correlation between the features were calculated using Pearson’s Correlation Coefficient as it can be seen in Fig 1. Since, the correlation between the ‘cell_shape’ and ‘cell_size’ were similar, the ‘cell_shape’ feature was dropped.  The K-Fold Cross Validation was performed where the number of folds (k = 10). The True Positive/Negative and False Positive/Negative for every fold were measured and the average was taken into consideration as it can be seen in Fig 2. Lastly, to measure the effectiveness of the two models it was compared against the following metrics – ROC AUC, F1 Score and Testing Accuracy. It can be seen both the models performed really good, with Logistic Regression being a bit better.",
     category: 'Machine Learning',
     website_link: null,
-    githublink : 'https://github.com/shaikhahmad179/imdb_sentiment_analysis',
+    githublink : 'https://github.com/shaikhahmad179/breast_cancer_binary_classification',
     youtubelink: null,
   },
+
+  
 
 ]
 
