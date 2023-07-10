@@ -71,6 +71,26 @@ const data = [
     githublink : 'https://github.com/shaikhahmad179/breast_cancer_binary_classification',
     youtubelink: null,
   },
+  {
+    id: 4,
+    name: 'Finding Optimal Parameters and Optimization Techniques using Genetic Algorithms',
+
+    img0: breast_cancer_cover,
+    img1: breast_cancer_binary_1,
+    img2: breast_cancer_binary_2,
+    img3: breast_cancer_binary_3,
+
+    imgSub1: '1. Finding correlation between features using Pearsons Coefficient Costant',
+    imgSub2: '2. Calculating TP/TN/FP/FN for every iteration (k=10)',
+    imgSub3: '3. Comparing ROC AUC and F1 Score for Logistic Regression and Naive Bayes, for every fold',
+    skills: ['Python', 'Binary Classification', 'Data Preprocessing','Pandas/NumPy', 'Sklearn'],
+    desc : "The Breast Cancer dataset consists of 683 rows with 9 features. The objective of the project is to classify benign cells (0) from malignant (1) using two machine learning algorithms – Logistic Regression and Naïve Bayes. In Data Preprocessing phase, duplicate data were removed, and the correlation between the features were calculated using Pearson’s Correlation Coefficient as it can be seen in Fig 1. Since, the correlation between the ‘cell_shape’ and ‘cell_size’ were similar, the ‘cell_shape’ feature was dropped.  The K-Fold Cross Validation was performed where the number of folds (k = 10). The True Positive/Negative and False Positive/Negative for every fold were measured and the average was taken into consideration as it can be seen in Fig 2. Lastly, to measure the effectiveness of the two models it was compared against the following metrics – ROC AUC, F1 Score and Testing Accuracy. It can be seen both the models performed really good, with Logistic Regression being a bit better.",
+    category: 'Machine Learning',
+    website_link: null,
+    githublink : 'https://github.com/shaikhahmad179/breast_cancer_binary_classification',
+    youtubelink: null,
+  },
+
 ]
 
 export default data
